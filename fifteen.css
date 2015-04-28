@@ -1,0 +1,33 @@
+/* Jianyang Zhang, CSE154, Autumn 2014, TA: Clarice Tran.
+This is the stylesheet for fifteen.html*/
+
+body {
+	font-family: cursive;
+	font-size: 14pt;
+	text-align: center;
+}
+
+.square{
+	display: inline-block;
+	width: 90px;
+	height: 90px;
+	position: absolute;
+	font-size: 40pt;
+	background-Image: url("background.jpg");
+	border: 5px solid black;
+	color: black;
+}
+
+.hover {
+	border: 5px solid red;
+	color: red;
+	cursor: pointer;
+}
+
+#puzzlearea {
+	width: 400px;
+	height: 400px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
